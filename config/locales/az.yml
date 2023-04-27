@@ -18,7 +18,7 @@ components:
       target=%{target} class='govuk-link'>OpenDocument</a> formatındadır
     order_a_copy: Surətini sifariş edin
     page:
-      one: null
+      one: 1 səhifə
       other: '%{count} səhifə'
     reference: 'İst: %{reference}'
     request_format_cta: İstifadə edilə bilən format tələb edin.
