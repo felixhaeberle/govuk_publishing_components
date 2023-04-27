@@ -1,26 +1,35 @@
-
 common:
   hide: Skjul
   show: vise
   toggle_less: Vis færre
-  toggle_more: "%{show} %{number} mere"
+  toggle_more: '%{show} %{number} mere'
   translations: Oversættelser
 components:
   accordion:
     hide_all: Skjul alle sektioner
     show_all: Vise alle sektioner
-    this_section_visually_hidden: " denne sektion"
+    this_section_visually_hidden: ' denne sektion'
   article_schema:
     scoped_search_description: Søg i %{title}
   attachment:
-    opendocument_html: Denne fil er i en <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a> format
+    opendocument_html: >-
+      Denne fil er i en <a
+      href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation'
+      target=%{target} class='govuk-link'>OpenDocument</a> format
     order_a_copy: Bestil et eksemplar
     page:
       one: 1 side
-      other: "%{count} sider"
+      other: '%{count} sider'
     reference: 'Henvisning: %{reference}'
     request_format_cta: Anmod om et tilgængeligt format.
-    request_format_details_html: Hvis du bruger hjælpemidler (f.eks. en skærmlæser) og har brug for en version af dette dokument i et mere tilgængeligt format, bedes du sende en e-mail til <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Venligst fortæl os, hvilket format du har brug for. Det vil hjælpe os, hvis du fortæller os, hvilken hjælpeteknologi du bruger.
+    request_format_details_html: >-
+      Hvis du bruger hjælpemidler (f.eks. en skærmlæser) og har brug for en
+      version af dette dokument i et mere tilgængeligt format, bedes du sende en
+      e-mail til <a href='mailto:%{alternative_format_contact_email}'
+      target='_blank'
+      class='govuk-link'>%{alternative_format_contact_email}</a>. Venligst
+      fortæl os, hvilket format du har brug for. Det vil hjælpe os, hvis du
+      fortæller os, hvilken hjælpeteknologi du bruger.
     request_format_text: Denne fil er muligvis ikke egnet til brugere af hjælpeteknologi.
   back_link:
     back: Tilbage
@@ -39,44 +48,52 @@ components:
     buttons:
       accept_cookies: Accepter yderligere cookies
       reject_cookies: Afvise yderligere cookies
-      view_cookies:
+      view_cookies: null
     confirmation_message:
-      accepted:
+      accepted: null
       html: Du kan %{link} når som helst.
       link: ændre dine cookie-indstillinger
-      rejected:
+      rejected: null
     hide: Skjul denne meddelelse
     text:
-    - Vi bruger nogle vigtige cookies for at få dette websted til at fungere.
-    - Vi vil gerne indstille yderligere cookies for at forstå
-    - hvordan du bruger GOV.UK
-    - huske dine indstillinger og forbedre offentlige tjenester.
-    - Vi bruger også cookies fra andre websteder for at hjælpe os med at levere indhold fra deres tjenester.
+      '0': Vi bruger nogle vigtige cookies for at få dette websted til at fungere.
+      '1': Vi vil gerne indstille yderligere cookies for at forstå
+      '2': hvordan du bruger GOV.UK
+      '3': huske dine indstillinger og forbedre offentlige tjenester.
+      '4': >-
+        Vi bruger også cookies fra andre websteder for at hjælpe os med at
+        levere indhold fra deres tjenester.
     title: Cookies på GOV.UK
   devolved_nations:
-    applies_to:
+    applies_to: null
     connectors:
-      last_word:
-      two_words:
-    england:
-    northern_ireland:
-    scotland:
+      last_word: null
+      two_words: null
+    england: null
+    northern_ireland: null
+    scotland: null
     type:
-      consultation:
-      detailed_guide:
-      guidance:
-      publication:
-    wales:
+      consultation: null
+      detailed_guide: null
+      guidance: null
+      publication: null
+    wales: null
   feedback:
     close: Luk
-    dont_include_personal_info: Do not include personal or financial information such as your national insurance number or credit card information.
+    dont_include_personal_info: >-
+      Do not include personal or financial information such as your national
+      insurance number or credit card information.
     email_address: E-mail-adresse
     help_us_improve_govuk: Hjælp os med at forbedre GOV.UK
     is_not_useful: denne side er ikke nyttig
     is_this_page_useful: Er denne side nyttig?
     is_useful: denne side er nyttig
     maybe: Måske
-    more_about_visit: To help us improve GOV.UK, we’d like to know more about your visit today. Vi sender dig et link til en feedbackformular. Det tager kun 2 minutter at udfylde det. Bare rolig, vi sender dig ikke spam og deler ikke din e-mailadresse med nogen.
+    more_about_visit: >-
+      To help us improve GOV.UK, we’d like to know more about your visit today.
+      Vi sender dig et link til en feedbackformular. Det tager kun 2 minutter at
+      udfylde det. Bare rolig, vi sender dig ikke spam og deler ikke din
+      e-mailadresse med nogen.
     'no': Nej
     send: Sende
     send_me_survey: Send mig undersøgelsen
@@ -86,23 +103,30 @@ components:
     what_wrong: Hvad gik galt?
     'yes': ja
   intervention:
-    accessible_link_text_suffix:
+    accessible_link_text_suffix: null
   layout_footer:
-    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Krown copyright</a>
-    licence_html: Alt indhold er tilgængeligt i henhold til <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">åben Forvaltning Licens v3.0</a>, medmindre andet er angivet.
-    navigation_links:
+    copyright_html: >-
+      <a class="govuk-footer__link govuk-footer__copyright-logo"
+      href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">©
+      Krown copyright</a>
+    licence_html: >-
+      Alt indhold er tilgængeligt i henhold til <a class="govuk-footer__link"
+      href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      rel="license">åben Forvaltning Licens v3.0</a>, medmindre andet er
+      angivet.
+    navigation_links: null
     support_links: Støtte links
   layout_for_public:
     account_layout:
       feedback:
         banners:
-          phase_banner_html:
+          phase_banner_html: null
       navigation:
         menu_bar:
           account:
-            link_text:
+            link_text: null
           manage:
-            link_text:
+            link_text: null
   layout_header:
     hide_button: Skjul søgning
     menu: Menu
@@ -110,21 +134,21 @@ components:
     show_button: Vis søgning
     top_level: Øverste niveau
   layout_super_navigation_header:
-    logo_link_title:
-    logo_text:
+    logo_link_title: null
+    logo_text: null
     menu_toggle_label:
-      hide:
-      show:
+      hide: null
+      show: null
     navigation_link:
-      href:
-      label:
-    navigation_links_columns:
-    navigation_menu_heading:
-    navigation_search_heading:
-    navigation_search_subheading:
-    popular_links:
-    popular_links_heading:
-    search_text:
+      href: null
+      label: null
+    navigation_links_columns: null
+    navigation_menu_heading: null
+    navigation_search_heading: null
+    navigation_search_subheading: null
+    popular_links: null
+    popular_links_heading: null
+    search_text: null
   metadata:
     from: Fra
     history: Historie
@@ -135,13 +159,13 @@ components:
   modal_dialogue:
     close_modal: Luk den modale dialog
   notice:
-    banner_title:
+    banner_title: null
   organisation_schema:
     all_content_search_description: Find alt indhold fra %{organisation}
   previous_and_next_navigation:
-    next:
+    next: null
     pagination: Paginering
-    previous:
+    previous: null
   print_link:
     text: Udskriv denne side
   radio:
@@ -164,16 +188,16 @@ components:
     topical_events: Aktuelle begivenheder
     topics: Udforsk emnet
     ukraine:
-      links:
-      title:
+      links: null
+      title: null
     world_locations: Verden Placeringer
   search_box:
     input_title: Søge
     label: Søg i GOV.UK
     search_button: Søge
   share_links:
-    all_opens_in_new_tab:
-    opens_in_new_tab:
+    all_opens_in_new_tab: null
+    opens_in_new_tab: null
   show_password:
     announce_hide: Din adgangskode er skjult
     announce_show: Din adgangskode vises
@@ -182,8 +206,8 @@ components:
     show: Vise
     show_password: Skjul adgangskode
   single_page_notification_button:
-    subscribe_text:
-    unsubscribe_text:
+    subscribe_text: null
+    unsubscribe_text: null
   skip_link:
     text: spring til hovedindholdet
   step_by_step_nav:
@@ -204,8 +228,8 @@ components:
     delete: Slet
     edit: Ændre
   table:
-    filter_count:
-    filter_label:
-    filter_message:
+    filter_count: null
+    filter_label: null
+    filter_message: null
   tabs:
     contents: Indhold

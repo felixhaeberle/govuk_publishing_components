@@ -2,29 +2,39 @@ common:
   hide: Gizlət
   show: Göstər
   toggle_less: Daha azını göstər
-  toggle_more: "%{show} %{number} daha çox"
+  toggle_more: '%{show} %{number} daha çox'
   translations: Tərcümələr
 components:
   accordion:
     hide_all: Bütün bölmələri gizlət
     show_all: Bütün bölmələri göstər
-    this_section_visually_hidden: " bu bölmə"
+    this_section_visually_hidden: ' bu bölmə'
   article_schema:
-    scoped_search_description: "%{title} üzrə axtar"
+    scoped_search_description: '%{title} üzrə axtar'
   attachment:
-    opendocument_html: Bu fayl <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a> formatındadır
+    opendocument_html: >-
+      Bu fayl <a
+      href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation'
+      target=%{target} class='govuk-link'>OpenDocument</a> formatındadır
     order_a_copy: Surətini sifariş edin
     page:
-      one:
-      other: "%{count} səhifə"
+      one: null
+      other: '%{count} səhifə'
     reference: 'İst: %{reference}'
     request_format_cta: İstifadə edilə bilən format tələb edin.
-    request_format_details_html: Köməkçi texnologiyalardan (ekran oxuyucusu kimi) istifadə edirsinizsə və sizə bu sənədin daha rahat istifadə edilə bilən formatda olan versiyası lazımdırsa, aşağıdakı ünvana e-məktubla müraciət edin <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Sizə hansı formatın lazım olduğunu bizə söyləyin. Hansı köməkçi texnologiyadan istifadə etdiyinizi bildirməyiniz bizə kömək edəcək.
+    request_format_details_html: >-
+      Köməkçi texnologiyalardan (ekran oxuyucusu kimi) istifadə edirsinizsə və
+      sizə bu sənədin daha rahat istifadə edilə bilən formatda olan versiyası
+      lazımdırsa, aşağıdakı ünvana e-məktubla müraciət edin <a
+      href='mailto:%{alternative_format_contact_email}' target='_blank'
+      class='govuk-link'>%{alternative_format_contact_email}</a>. Sizə hansı
+      formatın lazım olduğunu bizə söyləyin. Hansı köməkçi texnologiyadan
+      istifadə etdiyinizi bildirməyiniz bizə kömək edəcək.
     request_format_text: Bu fayl köməkçi texnologiya istifadəçiləri üçün uyğun olmaya bilər.
   back_link:
     back: Geriyə
   character_count:
-    body: "%{number} %{type} qədər"
+    body: '%{number} %{type} qədər'
     type:
       characters: simvol
       words: söz
@@ -38,43 +48,57 @@ components:
     buttons:
       accept_cookies: Əlavə kukilər qəbul edin
       reject_cookies: Əlavə kukilərdən imtina edin
-      view_cookies:
+      view_cookies: null
     confirmation_message:
-      accepted:
+      accepted: null
       html: İstənilən vaxt %{link}.
       link: Kuki parametrlərinizi dəyişdirin
-      rejected:
+      rejected: null
     hide: Bu mesajı gizlət
     text:
-    - Biz bu vebsaytın işləməsini təmin etmək üçün bəzi zəruri kukilərdən istifadə edirik.
-    - Biz GOV.UK-dən necə istifadə etdiyinizi anlamaq
-    - parametrlərinizi yadda saxlamaq və hökumət xidmətlərini təkmilləşdirmək üçün əlavə kukilər yerləşdirmək istərdik.
-    - Biz həmçinin digər saytların xidmətlərindən məzmun göndərməyimizə kömək etmək üçün həmin saytlar tərəfindən yerləşdirilmiş kukilərdən istifadə edirik.
+      '0': >-
+        Biz bu vebsaytın işləməsini təmin etmək üçün bəzi zəruri kukilərdən
+        istifadə edirik.
+      '1': Biz GOV.UK-dən necə istifadə etdiyinizi anlamaq
+      '2': >-
+        parametrlərinizi yadda saxlamaq və hökumət xidmətlərini təkmilləşdirmək
+        üçün əlavə kukilər yerləşdirmək istərdik.
+      '3': >-
+        Biz həmçinin digər saytların xidmətlərindən məzmun göndərməyimizə kömək
+        etmək üçün həmin saytlar tərəfindən yerləşdirilmiş kukilərdən istifadə
+        edirik.
     title: GOV.UK-dəki kukilər
   devolved_nations:
-    applies_to:
+    applies_to: null
     connectors:
-      last_word:
-      two_words:
-    england:
-    northern_ireland:
-    scotland:
+      last_word: null
+      two_words: null
+    england: null
+    northern_ireland: null
+    scotland: null
     type:
-      consultation:
-      detailed_guide:
-      guidance:
-      publication:
-    wales:
+      consultation: null
+      detailed_guide: null
+      guidance: null
+      publication: null
+    wales: null
   feedback:
     close: Bağla
-    dont_include_personal_info: Sosial sığorta nömrəniz və ya kredit kartınızın məlumatları kimi şəxsi və ya maliyyə məlumatları daxil etməyin.
+    dont_include_personal_info: >-
+      Sosial sığorta nömrəniz və ya kredit kartınızın məlumatları kimi şəxsi və
+      ya maliyyə məlumatları daxil etməyin.
     email_address: E-poçt ünvanı
     help_us_improve_govuk: Bizə GOV.UK-i təkmilləşdirməkdə kömək edin
     is_not_useful: bu səhifə faydalı deyildir
     is_this_page_useful: Bu səhifə faydalıdır?
     is_useful: bu səhifə faydalıdır
     maybe: Ola bilər
-    more_about_visit: GOV.UK təkmilləşdirməkdə bizə kömək etməyiniz üçün, biz bugünkü baş çəkməyinizlə bağlı daha çox şey bilmək istərdik. Biz sizə rəy forması üçün keçidi göndərəcəyik. Onun doldurulması yalnız 2 dəqiqə çəkəcək. Narahat olmayın, biz sizə spam göndərməyəcəyik və ya e-poçt ünvanınızı heç kimlə paylaşmayacağıq.
+    more_about_visit: >-
+      GOV.UK təkmilləşdirməkdə bizə kömək etməyiniz üçün, biz bugünkü baş
+      çəkməyinizlə bağlı daha çox şey bilmək istərdik. Biz sizə rəy forması üçün
+      keçidi göndərəcəyik. Onun doldurulması yalnız 2 dəqiqə çəkəcək. Narahat
+      olmayın, biz sizə spam göndərməyəcəyik və ya e-poçt ünvanınızı heç kimlə
+      paylaşmayacağıq.
     'no': Xeyr
     send: Göndər
     send_me_survey: Mənə sorğu göndər
@@ -84,23 +108,30 @@ components:
     what_wrong: Hansı yanlışlıq oldu?
     'yes': Bəli
   intervention:
-    accessible_link_text_suffix:
+    accessible_link_text_suffix: null
   layout_footer:
-    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">Â© Crown copyright</a>
-    licence_html: Bütün məzmunlar <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">v3.0 Açıq dövlət lisenziyasına əsasən mövcuddur</a>(başqa cür nəzərdə tutulmuş hallar istisna olmaqla)
-    navigation_links:
+    copyright_html: >-
+      <a class="govuk-footer__link govuk-footer__copyright-logo"
+      href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">Â©
+      Crown copyright</a>
+    licence_html: >-
+      Bütün məzmunlar <a class="govuk-footer__link"
+      href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      rel="license">v3.0 Açıq dövlət lisenziyasına əsasən mövcuddur</a>(başqa
+      cür nəzərdə tutulmuş hallar istisna olmaqla)
+    navigation_links: null
     support_links: Dəstək keçidləri
   layout_for_public:
     account_layout:
       feedback:
         banners:
-          phase_banner_html:
+          phase_banner_html: null
       navigation:
         menu_bar:
           account:
-            link_text:
+            link_text: null
           manage:
-            link_text:
+            link_text: null
   layout_header:
     hide_button: Axtarışı gizlət
     menu: Menyu
@@ -108,23 +139,23 @@ components:
     show_button: Axtarışı göstər
     top_level: Yüksək səviyyəli
   layout_super_navigation_header:
-    logo_link_title:
-    logo_text:
+    logo_link_title: null
+    logo_text: null
     menu_toggle_label:
-      hide:
-      show:
+      hide: null
+      show: null
     navigation_link:
-      href:
-      label:
-    navigation_links_columns:
-    navigation_menu_heading:
-    navigation_search_heading:
-    navigation_search_subheading:
-    popular_links:
-    popular_links_heading:
-    search_text:
+      href: null
+      label: null
+    navigation_links_columns: null
+    navigation_menu_heading: null
+    navigation_search_heading: null
+    navigation_search_subheading: null
+    popular_links: null
+    popular_links_heading: null
+    search_text: null
   metadata:
-    from: "...dan (dən)"
+    from: ...dan (dən)
     history: Tarix
     last_updated: Son yenilənmə
     part_of: Hissə
@@ -133,13 +164,13 @@ components:
   modal_dialogue:
     close_modal: Modal dialoqu bağla
   notice:
-    banner_title:
+    banner_title: null
   organisation_schema:
-    all_content_search_description: "%{organisation}-dan bütün məzmunu tap"
+    all_content_search_description: '%{organisation}-dan bütün məzmunu tap'
   previous_and_next_navigation:
-    next:
+    next: null
     pagination: Səhifələrə bölmə
-    previous:
+    previous: null
   print_link:
     text: Bu səhifəni çap et
   radio:
@@ -162,16 +193,16 @@ components:
     topical_events: Aktual tədbir
     topics: Mövzunu araşdırın
     ukraine:
-      links:
-      title:
+      links: null
+      title: null
     world_locations: Dünya üzrə yerləri
   search_box:
     input_title: Axtar
     label: GOV.UK-də axtar
     search_button: Axtar
   share_links:
-    all_opens_in_new_tab:
-    opens_in_new_tab:
+    all_opens_in_new_tab: null
+    opens_in_new_tab: null
   show_password:
     announce_hide: Şifrəniz gizlədilib
     announce_show: Şifrəniz göstərilir
@@ -180,8 +211,8 @@ components:
     show: Göstər
     show_password: Şifrəni göstər
   single_page_notification_button:
-    subscribe_text:
-    unsubscribe_text:
+    subscribe_text: null
+    unsubscribe_text: null
   skip_link:
     text: Əsas məzmuna keçin
   step_by_step_nav:
@@ -202,8 +233,8 @@ components:
     delete: Sil
     edit: Dəyiş
   table:
-    filter_count:
-    filter_label:
-    filter_message:
+    filter_count: null
+    filter_label: null
+    filter_message: null
   tabs:
     contents: Məzmunlar

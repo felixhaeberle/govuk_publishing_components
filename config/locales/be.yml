@@ -1,33 +1,35 @@
-
 common:
   hide: Схаваць
   show: Паказаць
   toggle_less: Паказаць меньш
-  toggle_more: "%{show} %{number} болей"
+  toggle_more: '%{show} %{number} болей'
   translations: Пераклады
 components:
   accordion:
     hide_all: Схаваць усе секцыi
     show_all: Паказаць усе секцыi
-    this_section_visually_hidden: " гэта секцыя"
+    this_section_visually_hidden: ' гэта секцыя'
   article_schema:
     scoped_search_description: Шукаць сярод %{title}
   attachment:
-    opendocument_html: Гэты файл у <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a> фармаце
+    opendocument_html: >-
+      Гэты файл у <a
+      href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation'
+      target=%{target} class='govuk-link'>OpenDocument</a> фармаце
     order_a_copy: Замовіць копію
     page:
-      few:
-      many:
+      few: null
+      many: null
       one: 1 старонка
-      other: "%{count} старонкi"
+      other: '%{count} старонкi'
     reference: 'Спасылка: %{reference}'
     request_format_cta: Запрасіць файл у іншым фармаце.
-    request_format_details_html: Калі вы выкарыстоўваеце дапаможных тэхналогіi (такiя як экранны дыктар) i патрэбна версiя гэтага дакумента  ў больш даступным фармаце, напішыце, калі ласка  на электронную пошту <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Калі ласка, паведаміце нам, які фармат вам патрэбен. Нам будзе лягчэй, калі вы паведаміце, якія дапаможныя тэхналогіi вы выкарыстоўваеце.
+    request_format_details_html: "Калі вы выкарыстоўваеце дапаможных тэхналогіi (такiя як экранны дыктар) i патрэбна версiя гэтага дакумента  ў больш даступным фармаце, напішыце, калі ласка \_на\_электронную\_пошту <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Калі ласка,\_паведаміце\_нам,\_які\_фармат\_вам\_патрэбен.\_Нам\_будзе\_лягчэй,\_калі\_вы\_паведаміце,\_якія дапаможныя тэхналогіi вы выкарыстоўваеце."
     request_format_text: Гэты файл можа быць непрыдатным для карыстальнікаў дапаможных тэхналогій.
   back_link:
     back: Назад
   character_count:
-    body: Вы можаце ўвесці да %{number} %{type}
+    body: "Вы\_можаце\_ўвесці да %{number} %{type}"
     type:
       characters: знакаў
       words: словаў
@@ -41,47 +43,55 @@ components:
     buttons:
       accept_cookies: Прыняць дадатковыя файлы cookie
       reject_cookies: Адхіліць дадатковыя файлы cookie
-      view_cookies:
+      view_cookies: null
     confirmation_message:
-      accepted:
+      accepted: null
       html: Вы можаце %{link} у любы час.
       link: змяніць налады файлаў cookie
-      rejected:
+      rejected: null
     hide: Схаваць гэта паведамленне
     text:
-    - Мы выкарыстоўваем некаторыя асноўныя файлы cookie для забеспячэння працы гэтага сайта.
-    - Мы хацелі б наладзіць дадатковыя файлы cookie
-    - каб зразумець
-    - як вы скарыстаеце GOV.UK
-    - запомніць вашы налады і палепшыць дзяржаўныя паслугі.
-    - Мы таксама выкарыстаем файлы cookie
-    - наладжаныя іншымі сайтамі
-    - каб дапамагчы нам дастаўляць кантэнт з іх сэрвісаў.
+      '0': >-
+        Мы выкарыстоўваем некаторыя асноўныя файлы cookie для забеспячэння працы
+        гэтага сайта.
+      '1': Мы хацелі б наладзіць дадатковыя файлы cookie
+      '2': каб зразумець
+      '3': як вы скарыстаеце GOV.UK
+      '4': запомніць вашы налады і палепшыць дзяржаўныя паслугі.
+      '5': Мы таксама выкарыстаем файлы cookie
+      '6': наладжаныя іншымі сайтамі
+      '7': каб дапамагчы нам дастаўляць кантэнт з іх сэрвісаў.
     title: Файлы cookie на GOV.UK
   devolved_nations:
-    applies_to:
+    applies_to: null
     connectors:
-      last_word:
-      two_words:
-    england:
-    northern_ireland:
-    scotland:
+      last_word: null
+      two_words: null
+    england: null
+    northern_ireland: null
+    scotland: null
     type:
-      consultation:
-      detailed_guide:
-      guidance:
-      publication:
-    wales:
+      consultation: null
+      detailed_guide: null
+      guidance: null
+      publication: null
+    wales: null
   feedback:
     close: Зачынiць
-    dont_include_personal_info: Не ўключайце асабістай ці фінансавай інфармацыі, напрыклад, нумар дзяржаўнага страхавання ці дадзеныя крэдытнай карты.
+    dont_include_personal_info: >-
+      Не ўключайце асабістай ці фінансавай інфармацыі, напрыклад, нумар
+      дзяржаўнага страхавання ці дадзеныя крэдытнай карты.
     email_address: Адрас электроннай пошты
     help_us_improve_govuk: Дапамажыце нам палепшыць GOV.UK
     is_not_useful: гэтая старонка не з'яўляецца карыснай
     is_this_page_useful: З'яўляецца лi гэтая старонка карыснай?
     is_useful: гэтая старонка з'яўляецца карыснай
     maybe: Магчыма
-    more_about_visit: Каб дапамагчы нам палепшыць GOV.UK, мы хацелі б даведацца больш пра ваша сённяшняе наведанне. Мы адправім вам спасылку на форму зваротнай сувязі. Яе запаўненне зойме ўсяго 2 хвіліны. Не турбуйцеся, мы не будзем рассылаць вам спам ці перадаваць ваш адрас электроннай пошты чужым асобам.
+    more_about_visit: >-
+      Каб дапамагчы нам палепшыць GOV.UK, мы хацелі б даведацца больш пра ваша
+      сённяшняе наведанне. Мы адправім вам спасылку на форму зваротнай сувязі.
+      Яе запаўненне зойме ўсяго 2 хвіліны. Не турбуйцеся, мы не будзем рассылаць
+      вам спам ці перадаваць ваш адрас электроннай пошты чужым асобам.
     'no': Не
     send: Адправiць
     send_me_survey: Адпраўце мне апытанне
@@ -91,23 +101,29 @@ components:
     what_wrong: Што пайшло не так?
     'yes': Так
   intervention:
-    accessible_link_text_suffix:
+    accessible_link_text_suffix: null
   layout_footer:
-    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
-    licence_html: Увесь змест даступны <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, калі не паказана іншае
-    navigation_links:
+    copyright_html: >-
+      <a class="govuk-footer__link govuk-footer__copyright-logo"
+      href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">©
+      Crown copyright</a>
+    licence_html: >-
+      Увесь змест даступны <a class="govuk-footer__link"
+      href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      rel="license">Open Government Licence v3.0</a>, калі не паказана іншае
+    navigation_links: null
     support_links: Дапаможныя спасылкі
   layout_for_public:
     account_layout:
       feedback:
         banners:
-          phase_banner_html:
+          phase_banner_html: null
       navigation:
         menu_bar:
           account:
-            link_text:
+            link_text: null
           manage:
-            link_text:
+            link_text: null
   layout_header:
     hide_button: Схаваць вынікі пошуку
     menu: Меню
@@ -115,21 +131,21 @@ components:
     show_button: Паказаць вынікі пошуку
     top_level: Верхні ўзровень
   layout_super_navigation_header:
-    logo_link_title:
-    logo_text:
+    logo_link_title: null
+    logo_text: null
     menu_toggle_label:
-      hide:
-      show:
+      hide: null
+      show: null
     navigation_link:
-      href:
-      label:
-    navigation_links_columns:
-    navigation_menu_heading:
-    navigation_search_heading:
-    navigation_search_subheading:
-    popular_links:
-    popular_links_heading:
-    search_text:
+      href: null
+      label: null
+    navigation_links_columns: null
+    navigation_menu_heading: null
+    navigation_search_heading: null
+    navigation_search_subheading: null
+    popular_links: null
+    popular_links_heading: null
+    search_text: null
   metadata:
     from: З
     history: Гiсторыя
@@ -140,13 +156,13 @@ components:
   modal_dialogue:
     close_modal: Зачыніць мадальны дыялог
   notice:
-    banner_title:
+    banner_title: null
   organisation_schema:
     all_content_search_description: Шукаць увесь змест з %{organisation}
   previous_and_next_navigation:
-    next:
+    next: null
     pagination: Месцаванне старонак
-    previous:
+    previous: null
   print_link:
     text: Надрукаваць гэтую странiцу
   radio:
@@ -169,16 +185,16 @@ components:
     topical_events: Актуальная падзея
     topics: Вывучыць тэму
     ukraine:
-      links:
-      title:
+      links: null
+      title: null
     world_locations: Мы ў свеце
   search_box:
     input_title: Пошук
     label: Шукаць на GOV.UK
     search_button: Пошук
   share_links:
-    all_opens_in_new_tab:
-    opens_in_new_tab:
+    all_opens_in_new_tab: null
+    opens_in_new_tab: null
   show_password:
     announce_hide: Ваш пароль схаваны
     announce_show: Ваш пароль адлюстроўваецца
@@ -187,8 +203,8 @@ components:
     show: Паказаць
     show_password: Адлюстраваць пароль
   single_page_notification_button:
-    subscribe_text:
-    unsubscribe_text:
+    subscribe_text: null
+    unsubscribe_text: null
   skip_link:
     text: Перайсці да асноўнага зместу
   step_by_step_nav:
@@ -209,8 +225,8 @@ components:
     delete: Выдаліць
     edit: Змянiць
   table:
-    filter_count:
-    filter_label:
-    filter_message:
+    filter_count: null
+    filter_label: null
+    filter_message: null
   tabs:
     contents: Змест

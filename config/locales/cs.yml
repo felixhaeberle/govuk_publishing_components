@@ -1,27 +1,35 @@
-
 common:
   hide: Skrýt
   show: Zobrazit
   toggle_less: Zobrazit méně
-  toggle_more: "%{show} %{number} více"
+  toggle_more: '%{show} %{number} více'
   translations: Překlady
 components:
   accordion:
     hide_all: Skrýt všechny sekce
     show_all: Zobrazit všechny sekce
-    this_section_visually_hidden: " tento oddíl"
+    this_section_visually_hidden: ' tento oddíl'
   article_schema:
     scoped_search_description: Hledat v %{title}
   attachment:
-    opendocument_html: Tento soubor je ve formátu <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a>
+    opendocument_html: >-
+      Tento soubor je ve formátu <a
+      href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation'
+      target=%{target} class='govuk-link'>OpenDocument</a>
     order_a_copy: Objednat kopii
     page:
-      few:
+      few: null
       one: Strana 1
-      other: "%{count} stránek"
+      other: '%{count} stránek'
     reference: 'Odkaz: %{reference}'
     request_format_cta: Vyžádejte si přístupný formát.
-    request_format_details_html: Pokud používáte asistivní technologii (např. čtečku obrazovky) a potřebujete verzi tohoto dokumentu v přístupnějším formátu, napište prosím <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Sdělte nám, jaký formát potřebujete. Pomůže nám, když uvedete, jakou asistenční technologii používáte.
+    request_format_details_html: >-
+      Pokud používáte asistivní technologii (např. čtečku obrazovky) a
+      potřebujete verzi tohoto dokumentu v přístupnějším formátu, napište prosím
+      <a href='mailto:%{alternative_format_contact_email}' target='_blank'
+      class='govuk-link'>%{alternative_format_contact_email}</a>. Sdělte nám,
+      jaký formát potřebujete. Pomůže nám, když uvedete, jakou asistenční
+      technologii používáte.
     request_format_text: Tento soubor nemusí být vhodný pro uživatele asistenčních technologií.
   back_link:
     back: Zadní strana
@@ -40,47 +48,53 @@ components:
     buttons:
       accept_cookies: Přijmout další soubory cookie
       reject_cookies: Odmítnutí dalších souborů cookie
-      view_cookies:
+      view_cookies: null
     confirmation_message:
-      accepted:
+      accepted: null
       html: Kdykoli můžete %{link}.
       link: Změna nastavení souborů cookie
-      rejected:
+      rejected: null
     hide: Skrýt tuto zprávu
     text:
-    - Používáme některé základní soubory cookie
-    - aby tyto webové stránky fungovaly.
-    - Rádi bychom nastavili další soubory cookie
-    - abychom pochopili
-    - jak používáte GOV.UK
-    - zapamatovali si vaše nastavení a zlepšili vládní služby.
-    - Používáme také soubory cookie nastavené jinými weby
-    - které nám pomáhají poskytovat obsah z jejich služeb.
+      '0': Používáme některé základní soubory cookie
+      '1': aby tyto webové stránky fungovaly.
+      '2': Rádi bychom nastavili další soubory cookie
+      '3': abychom pochopili
+      '4': jak používáte GOV.UK
+      '5': zapamatovali si vaše nastavení a zlepšili vládní služby.
+      '6': Používáme také soubory cookie nastavené jinými weby
+      '7': které nám pomáhají poskytovat obsah z jejich služeb.
     title: Soubory cookie na GOV.UK
   devolved_nations:
-    applies_to:
+    applies_to: null
     connectors:
-      last_word:
-      two_words:
-    england:
-    northern_ireland:
-    scotland:
+      last_word: null
+      two_words: null
+    england: null
+    northern_ireland: null
+    scotland: null
     type:
-      consultation:
-      detailed_guide:
-      guidance:
-      publication:
-    wales:
+      consultation: null
+      detailed_guide: null
+      guidance: null
+      publication: null
+    wales: null
   feedback:
     close: Zavřít
-    dont_include_personal_info: Neuvádějte osobní nebo finanční údaje, jako je číslo národního pojištění nebo údaje o kreditní kartě.
+    dont_include_personal_info: >-
+      Neuvádějte osobní nebo finanční údaje, jako je číslo národního pojištění
+      nebo údaje o kreditní kartě.
     email_address: E-mail
     help_us_improve_govuk: Pomozte nám zlepšit GOV.UK
     is_not_useful: tato stránka není užitečná
     is_this_page_useful: Je tato stránka užitečná?
     is_useful: tato stránka je užitečná
     maybe: Možná
-    more_about_visit: Pomozte nám zlepšit GOV.UK, rádi bychom se dozvěděli více o vaší dnešní návštěvě. Pošleme vám odkaz na formulář pro zpětnou vazbu. Vyplnění zabere pouhé 2 minuty. Nebojte se, že vám nebudeme posílat spam ani nikomu sdělovat vaši e-mailovou adresu.
+    more_about_visit: >-
+      Pomozte nám zlepšit GOV.UK, rádi bychom se dozvěděli více o vaší dnešní
+      návštěvě. Pošleme vám odkaz na formulář pro zpětnou vazbu. Vyplnění zabere
+      pouhé 2 minuty. Nebojte se, že vám nebudeme posílat spam ani nikomu
+      sdělovat vaši e-mailovou adresu.
     'no': Ne
     send: Odeslat
     send_me_survey: Pošlete mi průzkum
@@ -90,23 +104,29 @@ components:
     what_wrong: Co se pokazilo?
     'yes': Ano
   intervention:
-    accessible_link_text_suffix:
+    accessible_link_text_suffix: null
   layout_footer:
-    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
-    licence_html: Veškerý obsah je k dispozici pod <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, pokud není uvedeno jinak
-    navigation_links:
+    copyright_html: >-
+      <a class="govuk-footer__link govuk-footer__copyright-logo"
+      href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">©
+      Crown copyright</a>
+    licence_html: >-
+      Veškerý obsah je k dispozici pod <a class="govuk-footer__link"
+      href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      rel="license">Open Government Licence v3.0</a>, pokud není uvedeno jinak
+    navigation_links: null
     support_links: Odkazy na podporu
   layout_for_public:
     account_layout:
       feedback:
         banners:
-          phase_banner_html:
+          phase_banner_html: null
       navigation:
         menu_bar:
           account:
-            link_text:
+            link_text: null
           manage:
-            link_text:
+            link_text: null
   layout_header:
     hide_button: Skrýt vyhledávání
     menu: Nabídka
@@ -114,21 +134,21 @@ components:
     show_button: Zobrazit vyhledávání
     top_level: Nejvyšší úroveň
   layout_super_navigation_header:
-    logo_link_title:
-    logo_text:
+    logo_link_title: null
+    logo_text: null
     menu_toggle_label:
-      hide:
-      show:
+      hide: null
+      show: null
     navigation_link:
-      href:
-      label:
-    navigation_links_columns:
-    navigation_menu_heading:
-    navigation_search_heading:
-    navigation_search_subheading:
-    popular_links:
-    popular_links_heading:
-    search_text:
+      href: null
+      label: null
+    navigation_links_columns: null
+    navigation_menu_heading: null
+    navigation_search_heading: null
+    navigation_search_subheading: null
+    popular_links: null
+    popular_links_heading: null
+    search_text: null
   metadata:
     from: 'Komu I:'
     history: Historie
@@ -139,13 +159,13 @@ components:
   modal_dialogue:
     close_modal: Zavření modálního dialogu
   notice:
-    banner_title:
+    banner_title: null
   organisation_schema:
     all_content_search_description: Najít veškerý obsah z %{organisation}
   previous_and_next_navigation:
-    next:
+    next: null
     pagination: Stránkování
-    previous:
+    previous: null
   print_link:
     text: Vytisknout tuto stránku
   radio:
@@ -168,16 +188,16 @@ components:
     topical_events: Aktuální událost
     topics: Prozkoumat téma
     ukraine:
-      links:
-      title:
+      links: null
+      title: null
     world_locations: Místa ve světě
   search_box:
     input_title: Vyhledávání
     label: Vyhledávání na GOV.UK
     search_button: Vyhledávání
   share_links:
-    all_opens_in_new_tab:
-    opens_in_new_tab:
+    all_opens_in_new_tab: null
+    opens_in_new_tab: null
   show_password:
     announce_hide: Vaše heslo je skryté
     announce_show: Zobrazí se vaše heslo
@@ -186,8 +206,8 @@ components:
     show: Zobrazit
     show_password: Zobrazit heslo
   single_page_notification_button:
-    subscribe_text:
-    unsubscribe_text:
+    subscribe_text: null
+    unsubscribe_text: null
   skip_link:
     text: Přeskočit na hlavní obsah
   step_by_step_nav:
@@ -208,8 +228,8 @@ components:
     delete: Odstranit
     edit: Změna
   table:
-    filter_count:
-    filter_label:
-    filter_message:
+    filter_count: null
+    filter_label: null
+    filter_message: null
   tabs:
     contents: Obsah

@@ -1,26 +1,34 @@
-
 common:
   hide: Скриване
   show: Показване
   toggle_less: Показване на по-малко
-  toggle_more: "%{show} %{number} повече"
+  toggle_more: '%{show} %{number} повече'
   translations: Translations
 components:
   accordion:
     hide_all: Скриване на всички раздели
     show_all: Показване на всички раздели
-    this_section_visually_hidden: " този раздел"
+    this_section_visually_hidden: ' този раздел'
   article_schema:
     scoped_search_description: Търсене в %{title}
   attachment:
-    opendocument_html: Този файл е във <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>формат OpenDocument</a>
+    opendocument_html: >-
+      Този файл е във <a
+      href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation'
+      target=%{target} class='govuk-link'>формат OpenDocument</a>
     order_a_copy: Поръчайте копие
     page:
       one: 1-ва страница
-      other: "%{count} страници"
+      other: '%{count} страници'
     reference: 'Реф: %{reference}'
     request_format_cta: Поискайте достъпен формат.
-    request_format_details_html: Ако използвате помощна технология (например екранен четец) и се нуждаете от версия на този документ в по-достъпен формат, моля, изпратете имейл до <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Моля, посочете ни какъв формат ви е необходим. Ще ни улесните, ако посочите какви помощни технологии използвате.
+    request_format_details_html: >-
+      Ако използвате помощна технология (например екранен четец) и се нуждаете
+      от версия на този документ в по-достъпен формат, моля, изпратете имейл до
+      <a href='mailto:%{alternative_format_contact_email}' target='_blank'
+      class='govuk-link'>%{alternative_format_contact_email}</a>. Моля, посочете
+      ни какъв формат ви е необходим. Ще ни улесните, ако посочите какви помощни
+      технологии използвате.
     request_format_text: Този файл може да не е подходящ за потребители на помощни технологии.
   back_link:
     back: Назад
@@ -39,47 +47,53 @@ components:
     buttons:
       accept_cookies: Приемане на допълнителни бисквитки
       reject_cookies: Отказване от допълнителни бисквитки
-      view_cookies:
+      view_cookies: null
     confirmation_message:
-      accepted:
+      accepted: null
       html: Можете да %{link} по всяко време.
       link: Промяна на настройките за бисквитките
-      rejected:
+      rejected: null
     hide: Скриване на това съобщение
     text:
-    - Използваме някои основни бисквитки
-    - за да работи този уебсайт.
-    - Бихме искали да зададем допълнителни „бисквитки“
-    - за да разберем как използвате GOV.UK
-    - да запомним настройките ви и да подобрим правителствените услуги
-    - Използваме също и бисквитки
-    - зададени от други сайтове
-    - за да ни помогнат да предоставим съдържание от техните услуги.
+      '0': Използваме някои основни бисквитки
+      '1': за да работи този уебсайт.
+      '2': Бихме искали да зададем допълнителни „бисквитки“
+      '3': за да разберем как използвате GOV.UK
+      '4': да запомним настройките ви и да подобрим правителствените услуги
+      '5': Използваме също и бисквитки
+      '6': зададени от други сайтове
+      '7': за да ни помогнат да предоставим съдържание от техните услуги.
     title: Бисквитки на GOV.UK
   devolved_nations:
-    applies_to:
+    applies_to: null
     connectors:
-      last_word:
-      two_words:
-    england:
-    northern_ireland:
-    scotland:
+      last_word: null
+      two_words: null
+    england: null
+    northern_ireland: null
+    scotland: null
     type:
-      consultation:
-      detailed_guide:
-      guidance:
-      publication:
-    wales:
+      consultation: null
+      detailed_guide: null
+      guidance: null
+      publication: null
+    wales: null
   feedback:
     close: Затваряне
-    dont_include_personal_info: Не включвайте лична или финансова информация, като например номера на националната си застраховка или данни за кредитна карта.
+    dont_include_personal_info: >-
+      Не включвайте лична или финансова информация, като например номера на
+      националната си застраховка или данни за кредитна карта.
     email_address: Имейл адреси
     help_us_improve_govuk: Помогнете ни да подобрим GOV.UK
     is_not_useful: тази страница не е полезна
     is_this_page_useful: Полезна ли ви беше тази страница?
     is_useful: тази страница е полезна
     maybe: Може би
-    more_about_visit: За да ни помогнете да подобрим GOV.UK, бихме искали да узнаем повече за днешното ви посещение. Ще ви изпратим линк към формуляр за обратна връзка. Попълването на формуляра ще отнеме само 2 минути. Не се притеснявайте, че няма да ви изпратим спам и няма да споделяме с никого имейл адреса ви.
+    more_about_visit: >-
+      За да ни помогнете да подобрим GOV.UK, бихме искали да узнаем повече за
+      днешното ви посещение. Ще ви изпратим линк към формуляр за обратна връзка.
+      Попълването на формуляра ще отнеме само 2 минути. Не се притеснявайте, че
+      няма да ви изпратим спам и няма да споделяме с никого имейл адреса ви.
     'no': Не
     send: Изпращане
     send_me_survey: Изпратете ми анкетата
@@ -89,23 +103,30 @@ components:
     what_wrong: Какво се обърка?
     'yes': Да
   intervention:
-    accessible_link_text_suffix:
+    accessible_link_text_suffix: null
   layout_footer:
-    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
-    licence_html: Цялото съдържание е налично на <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, освен ако не е посочено друго
-    navigation_links:
+    copyright_html: >-
+      <a class="govuk-footer__link govuk-footer__copyright-logo"
+      href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">©
+      Crown copyright</a>
+    licence_html: >-
+      Цялото съдържание е налично на <a class="govuk-footer__link"
+      href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      rel="license">Open Government Licence v3.0</a>, освен ако не е посочено
+      друго
+    navigation_links: null
     support_links: Помощни линкове
   layout_for_public:
     account_layout:
       feedback:
         banners:
-          phase_banner_html:
+          phase_banner_html: null
       navigation:
         menu_bar:
           account:
-            link_text:
+            link_text: null
           manage:
-            link_text:
+            link_text: null
   layout_header:
     hide_button: Скриване на търсенето
     menu: Меню
@@ -113,21 +134,21 @@ components:
     show_button: Показване на търсенето
     top_level: Първо ниво
   layout_super_navigation_header:
-    logo_link_title:
-    logo_text:
+    logo_link_title: null
+    logo_text: null
     menu_toggle_label:
-      hide:
-      show:
+      hide: null
+      show: null
     navigation_link:
-      href:
-      label:
-    navigation_links_columns:
-    navigation_menu_heading:
-    navigation_search_heading:
-    navigation_search_subheading:
-    popular_links:
-    popular_links_heading:
-    search_text:
+      href: null
+      label: null
+    navigation_links_columns: null
+    navigation_menu_heading: null
+    navigation_search_heading: null
+    navigation_search_subheading: null
+    popular_links: null
+    popular_links_heading: null
+    search_text: null
   metadata:
     from: От
     history: История
@@ -138,13 +159,13 @@ components:
   modal_dialogue:
     close_modal: Затваряне на модалния диалог
   notice:
-    banner_title:
+    banner_title: null
   organisation_schema:
     all_content_search_description: Намиране на цялото съдържание от %{organisation}
   previous_and_next_navigation:
-    next:
+    next: null
     pagination: Страниране
-    previous:
+    previous: null
   print_link:
     text: Отпечатване на страницата
   radio:
@@ -167,16 +188,16 @@ components:
     topical_events: Тематично събитие
     topics: Разглеждане на темата
     ukraine:
-      links:
-      title:
+      links: null
+      title: null
     world_locations: Местоположения по света
   search_box:
     input_title: Търсене
     label: Търсене в GOV.UK
     search_button: Търсене
   share_links:
-    all_opens_in_new_tab:
-    opens_in_new_tab:
+    all_opens_in_new_tab: null
+    opens_in_new_tab: null
   show_password:
     announce_hide: Вашата парола е скрита
     announce_show: Вашата парола е видима
@@ -185,8 +206,8 @@ components:
     show: Показване
     show_password: Показване на паролата
   single_page_notification_button:
-    subscribe_text:
-    unsubscribe_text:
+    subscribe_text: null
+    unsubscribe_text: null
   skip_link:
     text: Към основното съдържание
   step_by_step_nav:
@@ -207,8 +228,8 @@ components:
     delete: Изтриване
     edit: Промяна
   table:
-    filter_count:
-    filter_label:
-    filter_message:
+    filter_count: null
+    filter_label: null
+    filter_message: null
   tabs:
     contents: Съдържание

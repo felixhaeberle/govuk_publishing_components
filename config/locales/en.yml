@@ -2,24 +2,33 @@ common:
   hide: Hide
   show: Show
   toggle_less: Show fewer
-  toggle_more: "%{show} %{number} more"
+  toggle_more: '%{show} %{number} more'
   translations: Translations
 components:
   accordion:
     hide_all: Hide all sections
     show_all: Show all sections
-    this_section_visually_hidden: " this section"
+    this_section_visually_hidden: ' this section'
   article_schema:
     scoped_search_description: Search within %{title}
   attachment:
-    opendocument_html: This file is in an <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a> format
+    opendocument_html: >-
+      This file is in an <a
+      href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation'
+      target=%{target} class='govuk-link'>OpenDocument</a> format
     order_a_copy: Order a copy
     page:
       one: 1 page
-      other: "%{count} pages"
+      other: '%{count} pages'
     reference: 'Ref: %{reference}'
     request_format_cta: Request an accessible format.
-    request_format_details_html: If you use assistive technology (such as a screen reader) and need a version of this document in a more accessible format, please email <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Please tell us what format you need. It will help us if you say what assistive technology you use.
+    request_format_details_html: >-
+      If you use assistive technology (such as a screen reader) and need a
+      version of this document in a more accessible format, please email <a
+      href='mailto:%{alternative_format_contact_email}' target='_blank'
+      class='govuk-link'>%{alternative_format_contact_email}</a>. Please tell us
+      what format you need. It will help us if you say what assistive technology
+      you use.
     request_format_text: This file may not be suitable for users of assistive technology.
   back_link:
     back: Back
@@ -46,15 +55,19 @@ components:
       rejected: You have rejected additional cookies
     hide: Hide this message
     text:
-    - We use some essential cookies to make this website work.
-    - We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.
-    - We also use cookies set by other sites to help us deliver content from their services.
+      '0': We use some essential cookies to make this website work.
+      '1': >-
+        We’d like to set additional cookies to understand how you use GOV.UK,
+        remember your settings and improve government services.
+      '2': >-
+        We also use cookies set by other sites to help us deliver content from
+        their services.
     title: Cookies on GOV.UK
   devolved_nations:
     applies_to: Applies to
     connectors:
-      last_word: " and "
-      two_words: " and "
+      last_word: ' and '
+      two_words: ' and '
     england: England
     northern_ireland: Northern Ireland
     scotland: Scotland
@@ -66,14 +79,20 @@ components:
     wales: Wales
   feedback:
     close: Cancel
-    dont_include_personal_info: Don’t include personal or financial information like your National Insurance number or credit card details.
+    dont_include_personal_info: >-
+      Don’t include personal or financial information like your National
+      Insurance number or credit card details.
     email_address: Email address
     help_us_improve_govuk: Help us improve GOV.UK
     is_not_useful: this page is not useful
     is_this_page_useful: Is this page useful?
     is_useful: this page is useful
     maybe: Maybe
-    more_about_visit: To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.
+    more_about_visit: >-
+      To help us improve GOV.UK, we’d like to know more about your visit today.
+      We’ll send you a link to a feedback form. It will take only 2 minutes to
+      fill in. Don’t worry we won’t send you spam or share your email address
+      with anyone.
     'no': 'No'
     send: Send
     send_me_survey: Send me the survey
@@ -83,69 +102,105 @@ components:
     what_wrong: What went wrong?
     'yes': 'Yes'
   intervention:
-    accessible_link_text_suffix: " (opens in a new tab)"
+    accessible_link_text_suffix: ' (opens in a new tab)'
   layout_footer:
-    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
-    licence_html: All content is available under the <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+    copyright_html: >-
+      <a class="govuk-footer__link govuk-footer__copyright-logo"
+      href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">©
+      Crown copyright</a>
+    licence_html: >-
+      All content is available under the <a class="govuk-footer__link"
+      href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      rel="license">Open Government Licence v3.0</a>, except where otherwise
+      stated
     navigation_links:
-    - title: Topics
-      menu_contents:
-      - text: Benefits
-        href: "/browse/benefits"
-      - text: Births, death, marriages and care
-        href: "/browse/births-deaths-marriages"
-      - text: Business and self-employed
-        href: "/browse/business"
-      - text: Childcare and parenting
-        href: "/browse/childcare-parenting"
-      - text: Citizenship and living in the UK
-        href: "/browse/citizenship"
-      - text: Crime, justice and the law
-        href: "/browse/justice"
-      - text: Disabled people
-        href: "/browse/disabilities"
-      - text: Driving and transport
-        href: "/browse/driving"
-      - text: Education and learning
-        href: "/browse/education"
-      - text: Employing people
-        href: "/browse/employing-people"
-      - text: Environment and countryside
-        href: "/browse/environment-countryside"
-      - text: Housing and local services
-        href: "/browse/housing-local-services"
-      - text: Money and tax
-        href: "/browse/tax"
-      - text: Passports, travel and living abroad
-        href: "/browse/abroad"
-      - text: Visas and immigration
-        href: "/browse/visas-immigration"
-      - text: Working, jobs and pensions
-        href: "/browse/working"
-    - title: Government activity
-      menu_contents:
-      - text: Departments
-        href: "/government/organisations"
-      - text: News
-        href: "/search/news-and-communications"
-      - text: Guidance and regulation
-        href: "/search/guidance-and-regulation"
-      - text: Research and statistics
-        href: "/search/research-and-statistics"
-      - text: Policy papers and consultations
-        href: "/search/policy-papers-and-consultations"
-      - text: Transparency
-        href: "/search/transparency-and-freedom-of-information-releases"
-      - text: How government works
-        href: "/government/how-government-works"
-      - text: Get involved
-        href: "/government/get-involved"
+      '0':
+        title: Topics
+        menu_contents:
+          '0':
+            text: Benefits
+            href: /browse/benefits
+          '1':
+            text: Births, death, marriages and care
+            href: /browse/births-deaths-marriages
+          '2':
+            text: Business and self-employed
+            href: /browse/business
+          '3':
+            text: Childcare and parenting
+            href: /browse/childcare-parenting
+          '4':
+            text: Citizenship and living in the UK
+            href: /browse/citizenship
+          '5':
+            text: Crime, justice and the law
+            href: /browse/justice
+          '6':
+            text: Disabled people
+            href: /browse/disabilities
+          '7':
+            text: Driving and transport
+            href: /browse/driving
+          '8':
+            text: Education and learning
+            href: /browse/education
+          '9':
+            text: Employing people
+            href: /browse/employing-people
+          '10':
+            text: Environment and countryside
+            href: /browse/environment-countryside
+          '11':
+            text: Housing and local services
+            href: /browse/housing-local-services
+          '12':
+            text: Money and tax
+            href: /browse/tax
+          '13':
+            text: Passports, travel and living abroad
+            href: /browse/abroad
+          '14':
+            text: Visas and immigration
+            href: /browse/visas-immigration
+          '15':
+            text: Working, jobs and pensions
+            href: /browse/working
+      '1':
+        title: Government activity
+        menu_contents:
+          '0':
+            text: Departments
+            href: /government/organisations
+          '1':
+            text: News
+            href: /search/news-and-communications
+          '2':
+            text: Guidance and regulation
+            href: /search/guidance-and-regulation
+          '3':
+            text: Research and statistics
+            href: /search/research-and-statistics
+          '4':
+            text: Policy papers and consultations
+            href: /search/policy-papers-and-consultations
+          '5':
+            text: Transparency
+            href: /search/transparency-and-freedom-of-information-releases
+          '6':
+            text: How government works
+            href: /government/how-government-works
+          '7':
+            text: Get involved
+            href: /government/get-involved
     support_links: Support links
   layout_for_public:
     account_layout:
       feedback:
         banners:
-          phase_banner_html: This is a new service – your <a class="govuk-link" href="https://signin.account.gov.uk/contact-us?supportType=PUBLIC">feedback</a> will help us to improve it.
+          phase_banner_html: >-
+            This is a new service – your <a class="govuk-link"
+            href="https://signin.account.gov.uk/contact-us?supportType=PUBLIC">feedback</a>
+            will help us to improve it.
       navigation:
         menu_bar:
           account:
@@ -165,79 +220,108 @@ components:
       hide: Hide %{label} menu
       show: Show %{label} menu
     navigation_link:
-      href: "/browse"
+      href: /browse
       label: Menu
     navigation_links_columns:
-    - label: Topics
-      size: 2
-      menu_contents:
-      - label: Benefits
-        href: "/browse/benefits"
-      - label: Births, death, marriages and care
-        href: "/browse/births-deaths-marriages"
-      - label: Business and self-employed
-        href: "/browse/business"
-      - label: Childcare and parenting
-        href: "/browse/childcare-parenting"
-      - label: Citizenship and living in the UK
-        href: "/browse/citizenship"
-      - label: Crime, justice and the law
-        href: "/browse/justice"
-      - label: Disabled people
-        href: "/browse/disabilities"
-      - label: Driving and transport
-        href: "/browse/driving"
-      - label: Education and learning
-        href: "/browse/education"
-      - label: Employing people
-        href: "/browse/employing-people"
-      - label: Environment and countryside
-        href: "/browse/environment-countryside"
-      - label: Housing and local services
-        href: "/browse/housing-local-services"
-      - label: Money and tax
-        href: "/browse/tax"
-      - label: Passports, travel and living abroad
-        href: "/browse/abroad"
-      - label: Visas and immigration
-        href: "/browse/visas-immigration"
-      - label: Working, jobs and pensions
-        href: "/browse/working"
-    - label: Government activity
-      column_size: 1
-      menu_contents:
-      - label: Departments
-        href: "/government/organisations"
-        description: Departments, agencies and public bodies
-      - label: News
-        href: "/search/news-and-communications"
-        description: News stories, speeches, letters and notices
-      - label: Guidance and regulation
-        href: "/search/guidance-and-regulation"
-        description: Detailed guidance, regulations and rules
-      - label: Research and statistics
-        href: "/search/research-and-statistics"
-        description: Reports, analysis and official statistics
-      - label: Policy papers and consultations
-        href: "/search/policy-papers-and-consultations"
-        description: Consultations and strategy
-      - label: Transparency
-        href: "/search/transparency-and-freedom-of-information-releases"
-        description: Data, Freedom of Information releases and corporate reports
+      '0':
+        label: Topics
+        size: 2
+        menu_contents:
+          '0':
+            label: Benefits
+            href: /browse/benefits
+          '1':
+            label: Births, death, marriages and care
+            href: /browse/births-deaths-marriages
+          '2':
+            label: Business and self-employed
+            href: /browse/business
+          '3':
+            label: Childcare and parenting
+            href: /browse/childcare-parenting
+          '4':
+            label: Citizenship and living in the UK
+            href: /browse/citizenship
+          '5':
+            label: Crime, justice and the law
+            href: /browse/justice
+          '6':
+            label: Disabled people
+            href: /browse/disabilities
+          '7':
+            label: Driving and transport
+            href: /browse/driving
+          '8':
+            label: Education and learning
+            href: /browse/education
+          '9':
+            label: Employing people
+            href: /browse/employing-people
+          '10':
+            label: Environment and countryside
+            href: /browse/environment-countryside
+          '11':
+            label: Housing and local services
+            href: /browse/housing-local-services
+          '12':
+            label: Money and tax
+            href: /browse/tax
+          '13':
+            label: Passports, travel and living abroad
+            href: /browse/abroad
+          '14':
+            label: Visas and immigration
+            href: /browse/visas-immigration
+          '15':
+            label: Working, jobs and pensions
+            href: /browse/working
+      '1':
+        label: Government activity
+        column_size: 1
+        menu_contents:
+          '0':
+            label: Departments
+            href: /government/organisations
+            description: Departments, agencies and public bodies
+          '1':
+            label: News
+            href: /search/news-and-communications
+            description: News stories, speeches, letters and notices
+          '2':
+            label: Guidance and regulation
+            href: /search/guidance-and-regulation
+            description: Detailed guidance, regulations and rules
+          '3':
+            label: Research and statistics
+            href: /search/research-and-statistics
+            description: Reports, analysis and official statistics
+          '4':
+            label: Policy papers and consultations
+            href: /search/policy-papers-and-consultations
+            description: Consultations and strategy
+          '5':
+            label: Transparency
+            href: /search/transparency-and-freedom-of-information-releases
+            description: Data, Freedom of Information releases and corporate reports
     navigation_menu_heading: Navigation menu
     navigation_search_heading: Search and popular pages
     navigation_search_subheading: Search
     popular_links:
-    - label: Get support with the cost of living
-      href: "/cost-of-living"
-    - label: Find out about the Energy Bills Support Scheme
-      href: "/guidance/getting-the-energy-bills-support-scheme-discount"
-    - label: Find a job
-      href: "/find-a-job"
-    - label: Coronavirus (COVID-19)
-      href: "/coronavirus"
-    - label: 'Universal Credit account: sign in'
-      href: "/sign-in-universal-credit"
+      '0':
+        label: Get support with the cost of living
+        href: /cost-of-living
+      '1':
+        label: Find out about the Energy Bills Support Scheme
+        href: /guidance/getting-the-energy-bills-support-scheme-discount
+      '2':
+        label: Find a job
+        href: /find-a-job
+      '3':
+        label: Coronavirus (COVID-19)
+        href: /coronavirus
+      '4':
+        label: 'Universal Credit account: sign in'
+        href: /sign-in-universal-credit
     popular_links_heading: Popular on GOV.UK
     search_text: Search GOV.UK
   metadata:
@@ -280,14 +364,20 @@ components:
     topics: Explore the topic
     ukraine:
       links:
-      - label: UK visa support for Ukrainian nationals
-        href: https://www.gov.uk/guidance/support-for-family-members-of-british-nationals-in-ukraine-and-ukrainian-nationals-in-ukraine-and-the-uk
-      - label: Move to the UK if you're coming from Ukraine
-        href: https://www.gov.uk/guidance/move-to-the-uk-if-youre-from-ukraine
-      - label: 'Homes for Ukraine: record your interest'
-        href: https://www.gov.uk/register-interest-homes-ukraine
-      - label: Find out about the UK’s response
-        href: https://www.gov.uk/government/topical-events/russian-invasion-of-ukraine-uk-government-response
+        '0':
+          label: UK visa support for Ukrainian nationals
+          href: >-
+            https://www.gov.uk/guidance/support-for-family-members-of-british-nationals-in-ukraine-and-ukrainian-nationals-in-ukraine-and-the-uk
+        '1':
+          label: Move to the UK if you're coming from Ukraine
+          href: https://www.gov.uk/guidance/move-to-the-uk-if-youre-from-ukraine
+        '2':
+          label: 'Homes for Ukraine: record your interest'
+          href: https://www.gov.uk/register-interest-homes-ukraine
+        '3':
+          label: Find out about the UK’s response
+          href: >-
+            https://www.gov.uk/government/topical-events/russian-invasion-of-ukraine-uk-government-response
       title: Invasion of Ukraine
     world_locations: World locations
   search_box:
@@ -296,7 +386,7 @@ components:
     search_button: Search
   share_links:
     all_opens_in_new_tab: Sharing will open the page in a new tab
-    opens_in_new_tab: "(opens in new tab)"
+    opens_in_new_tab: (opens in new tab)
   show_password:
     announce_hide: Your password is hidden
     announce_show: Your password is shown

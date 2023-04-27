@@ -1,26 +1,35 @@
-
 common:
   hide: Ausblenden
   show: Anzeigen
   toggle_less: Weniger anzeigen
-  toggle_more: "%{show} %{number} weitere"
+  toggle_more: '%{show} %{number} weitere'
   translations: Übersetzungen
 components:
   accordion:
     hide_all: Alle Rubriken ausblenden
     show_all: Alle Rubriken anzeigen
-    this_section_visually_hidden: " diese Rubrik"
+    this_section_visually_hidden: ' diese Rubrik'
   article_schema:
     scoped_search_description: Suche innerhalb %{title}
   attachment:
-    opendocument_html: Diese Datei liegt im <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a> Format vor
+    opendocument_html: >-
+      Diese Datei liegt im <a
+      href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation'
+      target=%{target} class='govuk-link'>OpenDocument</a> Format vor
     order_a_copy: Eine Kopie bestellen
     page:
       one: 1 Seite
-      other: "%{count} Seiten"
+      other: '%{count} Seiten'
     reference: 'Ref: %{reference}'
     request_format_cta: Fordern Sie ein zugängliches Format an.
-    request_format_details_html: Sollten Sie Hilfsmittel (wie z. B. einen Bildschirmleser) verwenden und eine Version dieses Dokuments in einem leichter zugänglichen Format benötigen, senden Sie bitte eine Email an <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Bitte teilen Sie uns mit, welches Format Sie benötigen. Es erleichtert uns die Arbeit, wenn Sie uns mitteilen, welche Hilfsmittel Sie verwenden.
+    request_format_details_html: >-
+      Sollten Sie Hilfsmittel (wie z. B. einen Bildschirmleser) verwenden und
+      eine Version dieses Dokuments in einem leichter zugänglichen Format
+      benötigen, senden Sie bitte eine Email an <a
+      href='mailto:%{alternative_format_contact_email}' target='_blank'
+      class='govuk-link'>%{alternative_format_contact_email}</a>. Bitte teilen
+      Sie uns mit, welches Format Sie benötigen. Es erleichtert uns die Arbeit,
+      wenn Sie uns mitteilen, welche Hilfsmittel Sie verwenden.
     request_format_text: Diese Datei ist möglicherweise nicht für Hilfsmittel-Nutzer geeignet.
   back_link:
     back: Zurück
@@ -39,47 +48,56 @@ components:
     buttons:
       accept_cookies: Zusätzliche Cookies akzeptieren
       reject_cookies: Zusätzliche Cookies ablehnen
-      view_cookies:
+      view_cookies: null
     confirmation_message:
-      accepted:
+      accepted: null
       html: Sie können jederzeit %{link}.
       link: Cookie-Einstellungen ändern
-      rejected:
+      rejected: null
     hide: Diese Meldung ausblenden
     text:
-    - Wir verwenden einige essenzielle Cookies
-    - damit diese Webseite ordnungsgemäß funktioniert.
-    - Wir möchten zusätzliche Cookies setzen
-    - um Ihre Nutzung von GOV.UK zu verstehen
-    - Ihre Einstellungen zu speichern und die Regierungsdienste zu verbessern.
-    - Wir verwenden außerdem Cookies
-    - die von anderen Webseiten gesetzt werden
-    - um uns bei der Bereitstellung von Inhalten aus deren Diensten zu unterstützen.
+      '0': Wir verwenden einige essenzielle Cookies
+      '1': damit diese Webseite ordnungsgemäß funktioniert.
+      '2': Wir möchten zusätzliche Cookies setzen
+      '3': um Ihre Nutzung von GOV.UK zu verstehen
+      '4': Ihre Einstellungen zu speichern und die Regierungsdienste zu verbessern.
+      '5': Wir verwenden außerdem Cookies
+      '6': die von anderen Webseiten gesetzt werden
+      '7': >-
+        um uns bei der Bereitstellung von Inhalten aus deren Diensten zu
+        unterstützen.
     title: Cookies auf GOV.UK
   devolved_nations:
-    applies_to:
+    applies_to: null
     connectors:
-      last_word:
-      two_words:
-    england:
-    northern_ireland:
-    scotland:
+      last_word: null
+      two_words: null
+    england: null
+    northern_ireland: null
+    scotland: null
     type:
-      consultation:
-      detailed_guide:
-      guidance:
-      publication:
-    wales:
+      consultation: null
+      detailed_guide: null
+      guidance: null
+      publication: null
+    wales: null
   feedback:
     close: Schließen
-    dont_include_personal_info: Geben Sie keine personenbezogenen oder Finanzdaten wie Ihre Sozialversicherungsnummer oder Kreditkartendaten an.
+    dont_include_personal_info: >-
+      Geben Sie keine personenbezogenen oder Finanzdaten wie Ihre
+      Sozialversicherungsnummer oder Kreditkartendaten an.
     email_address: Email-Adresse
     help_us_improve_govuk: Helfen Sie uns, GOV.UK zu verbessern
     is_not_useful: diese Seite ist nicht hilfreich
     is_this_page_useful: Ist diese Seite hilfreich?
     is_useful: diese Seite ist hilfreich
     maybe: Vielleicht
-    more_about_visit: Damit wir GOV.UK verbessern können, würden wir gerne mehr über Ihren heutigen Besuch erfahren. Wir senden Ihnen dann einen Link zu einem Rückmeldungsformular. Es dauert nur 2 Minuten, das Formular auszufüllen. Keine Sorge, wir werden Ihnen keine Spam-Mails schicken oder Ihre Email-Adresse an Dritte weitergeben.
+    more_about_visit: >-
+      Damit wir GOV.UK verbessern können, würden wir gerne mehr über Ihren
+      heutigen Besuch erfahren. Wir senden Ihnen dann einen Link zu einem
+      Rückmeldungsformular. Es dauert nur 2 Minuten, das Formular auszufüllen.
+      Keine Sorge, wir werden Ihnen keine Spam-Mails schicken oder Ihre
+      Email-Adresse an Dritte weitergeben.
     'no': Nein
     send: Senden
     send_me_survey: Senden Sie mir die Umfrage
@@ -89,23 +107,30 @@ components:
     what_wrong: Was ist schief gelaufen?
     'yes': Ja
   intervention:
-    accessible_link_text_suffix:
+    accessible_link_text_suffix: null
   layout_footer:
-    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
-    licence_html: Alle Inhalte stehen unter der <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, sofern nicht anders angegeben.
-    navigation_links:
+    copyright_html: >-
+      <a class="govuk-footer__link govuk-footer__copyright-logo"
+      href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">©
+      Crown copyright</a>
+    licence_html: >-
+      Alle Inhalte stehen unter der <a class="govuk-footer__link"
+      href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      rel="license">Open Government Licence v3.0</a>, sofern nicht anders
+      angegeben.
+    navigation_links: null
     support_links: Links zur Unterstützung
   layout_for_public:
     account_layout:
       feedback:
         banners:
-          phase_banner_html:
+          phase_banner_html: null
       navigation:
         menu_bar:
           account:
-            link_text:
+            link_text: null
           manage:
-            link_text:
+            link_text: null
   layout_header:
     hide_button: Suche ausblenden
     menu: Menü
@@ -113,21 +138,21 @@ components:
     show_button: Suche anzeigen
     top_level: Oberste Ebene
   layout_super_navigation_header:
-    logo_link_title:
-    logo_text:
+    logo_link_title: null
+    logo_text: null
     menu_toggle_label:
-      hide:
-      show:
+      hide: null
+      show: null
     navigation_link:
-      href:
-      label:
-    navigation_links_columns:
-    navigation_menu_heading:
-    navigation_search_heading:
-    navigation_search_subheading:
-    popular_links:
-    popular_links_heading:
-    search_text:
+      href: null
+      label: null
+    navigation_links_columns: null
+    navigation_menu_heading: null
+    navigation_search_heading: null
+    navigation_search_subheading: null
+    popular_links: null
+    popular_links_heading: null
+    search_text: null
   metadata:
     from: Von
     history: Geschichte
@@ -138,13 +163,13 @@ components:
   modal_dialogue:
     close_modal: Dialog schließen
   notice:
-    banner_title:
+    banner_title: null
   organisation_schema:
     all_content_search_description: Alle Inhalte von %{organisation} finden
   previous_and_next_navigation:
-    next:
+    next: null
     pagination: Seitenzahlen
-    previous:
+    previous: null
   print_link:
     text: Diese Seite drucken
   radio:
@@ -167,16 +192,16 @@ components:
     topical_events: Themenbezogene Veranstaltung
     topics: Thema ansehen
     ukraine:
-      links:
-      title:
+      links: null
+      title: null
     world_locations: Weltweite Standorte
   search_box:
     input_title: Suche
     label: Auf GOV.UK suchen
     search_button: Suche
   share_links:
-    all_opens_in_new_tab:
-    opens_in_new_tab:
+    all_opens_in_new_tab: null
+    opens_in_new_tab: null
   show_password:
     announce_hide: Ihr Passwort ist ausgeblendet
     announce_show: Ihr Passwort ist eingeblendet
@@ -185,8 +210,8 @@ components:
     show: Anzeigen
     show_password: Passwort anzeigen
   single_page_notification_button:
-    subscribe_text:
-    unsubscribe_text:
+    subscribe_text: null
+    unsubscribe_text: null
   skip_link:
     text: Zum Hauptinhalt springen
   step_by_step_nav:
@@ -207,8 +232,8 @@ components:
     delete: Löschen
     edit: Ändern
   table:
-    filter_count:
-    filter_label:
-    filter_message:
+    filter_count: null
+    filter_label: null
+    filter_message: null
   tabs:
     contents: Inhalte
