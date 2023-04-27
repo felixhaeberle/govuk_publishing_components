@@ -5,7 +5,7 @@
  */
 export async function defineConfig(env) {
   const plugin = await env.$import(
-    "https://cdn.jsdelivr.net/gh/felixhaeberle/inlang-plugin-yaml@1.0.1/dist/index.js"
+    "https://cdn.jsdelivr.net/gh/felixhaeberle/inlang-plugin-yaml@1.0.2/dist/index.js"
   );
 
   const { default: standardLintRules } = await env.$import(
