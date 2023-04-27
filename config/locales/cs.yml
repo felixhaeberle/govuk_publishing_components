@@ -1,216 +1,215 @@
----
-cs:
-  common:
+
+common:
+  hide: Skrýt
+  show: Zobrazit
+  toggle_less: Zobrazit méně
+  toggle_more: "%{show} %{number} více"
+  translations: Překlady
+components:
+  accordion:
+    hide_all: Skrýt všechny sekce
+    show_all: Zobrazit všechny sekce
+    this_section_visually_hidden: " tento oddíl"
+  article_schema:
+    scoped_search_description: Hledat v %{title}
+  attachment:
+    opendocument_html: Tento soubor je ve formátu <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a>
+    order_a_copy: Objednat kopii
+    page:
+      few:
+      one: Strana 1
+      other: "%{count} stránek"
+    reference: 'Odkaz: %{reference}'
+    request_format_cta: Vyžádejte si přístupný formát.
+    request_format_details_html: Pokud používáte asistivní technologii (např. čtečku obrazovky) a potřebujete verzi tohoto dokumentu v přístupnějším formátu, napište prosím <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Sdělte nám, jaký formát potřebujete. Pomůže nám, když uvedete, jakou asistenční technologii používáte.
+    request_format_text: Tento soubor nemusí být vhodný pro uživatele asistenčních technologií.
+  back_link:
+    back: Zadní strana
+  character_count:
+    body: Můžete zadat až %{number} %{type}
+    type:
+      characters: znaky
+      words: slova
+  checkboxes:
+    or: nebo
+  contents_list:
+    contents: Obsah
+  contextual_sidebar:
+    pretitle: Též součást
+  cookie_banner:
+    buttons:
+      accept_cookies: Přijmout další soubory cookie
+      reject_cookies: Odmítnutí dalších souborů cookie
+      view_cookies:
+    confirmation_message:
+      accepted:
+      html: Kdykoli můžete %{link}.
+      link: Změna nastavení souborů cookie
+      rejected:
+    hide: Skrýt tuto zprávu
+    text:
+    - Používáme některé základní soubory cookie
+    - aby tyto webové stránky fungovaly.
+    - Rádi bychom nastavili další soubory cookie
+    - abychom pochopili
+    - jak používáte GOV.UK
+    - zapamatovali si vaše nastavení a zlepšili vládní služby.
+    - Používáme také soubory cookie nastavené jinými weby
+    - které nám pomáhají poskytovat obsah z jejich služeb.
+    title: Soubory cookie na GOV.UK
+  devolved_nations:
+    applies_to:
+    connectors:
+      last_word:
+      two_words:
+    england:
+    northern_ireland:
+    scotland:
+    type:
+      consultation:
+      detailed_guide:
+      guidance:
+      publication:
+    wales:
+  feedback:
+    close: Zavřít
+    dont_include_personal_info: Neuvádějte osobní nebo finanční údaje, jako je číslo národního pojištění nebo údaje o kreditní kartě.
+    email_address: E-mail
+    help_us_improve_govuk: Pomozte nám zlepšit GOV.UK
+    is_not_useful: tato stránka není užitečná
+    is_this_page_useful: Je tato stránka užitečná?
+    is_useful: tato stránka je užitečná
+    maybe: Možná
+    more_about_visit: Pomozte nám zlepšit GOV.UK, rádi bychom se dozvěděli více o vaší dnešní návštěvě. Pošleme vám odkaz na formulář pro zpětnou vazbu. Vyplnění zabere pouhé 2 minuty. Nebojte se, že vám nebudeme posílat spam ani nikomu sdělovat vaši e-mailovou adresu.
+    'no': Ne
+    send: Odeslat
+    send_me_survey: Pošlete mi průzkum
+    something_wrong: Nahlásit problém s touto stránkou
+    thank_you_for_feedback: Děkujeme za vaši zpětnou vazbu
+    what_doing: Co jste dělal?
+    what_wrong: Co se pokazilo?
+    'yes': Ano
+  intervention:
+    accessible_link_text_suffix:
+  layout_footer:
+    copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
+    licence_html: Veškerý obsah je k dispozici pod <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, pokud není uvedeno jinak
+    navigation_links:
+    support_links: Odkazy na podporu
+  layout_for_public:
+    account_layout:
+      feedback:
+        banners:
+          phase_banner_html:
+      navigation:
+        menu_bar:
+          account:
+            link_text:
+          manage:
+            link_text:
+  layout_header:
+    hide_button: Skrýt vyhledávání
+    menu: Nabídka
+    search_button: Vyhledávání na GOV.UK
+    show_button: Zobrazit vyhledávání
+    top_level: Nejvyšší úroveň
+  layout_super_navigation_header:
+    logo_link_title:
+    logo_text:
+    menu_toggle_label:
+      hide:
+      show:
+    navigation_link:
+      href:
+      label:
+    navigation_links_columns:
+    navigation_menu_heading:
+    navigation_search_heading:
+    navigation_search_subheading:
+    popular_links:
+    popular_links_heading:
+    search_text:
+  metadata:
+    from: 'Komu I:'
+    history: Historie
+    last_updated: 'Poslední aktualizace:'
+    part_of: Část
+    published: Zveřejněno
+    see_all_updates: Vidět všechny aktualizace
+  modal_dialogue:
+    close_modal: Zavření modálního dialogu
+  notice:
+    banner_title:
+  organisation_schema:
+    all_content_search_description: Najít veškerý obsah z %{organisation}
+  previous_and_next_navigation:
+    next:
+    pagination: Stránkování
+    previous:
+  print_link:
+    text: Vytisknout tuto stránku
+  radio:
+    or: nebo
+  related_footer_navigation:
+    collections: Sbírky
+    policies: Politik
+    statistical_data_sets: Soubory statistických údajů.
+    topical_events: Aktuální události
+  related_navigation:
+    collections: Sbírka
+    external_links: Jinde na webu
+    policies: Politika
+    publishers: Zveřejněno
+    related_contacts: Další kontakty
+    related_content: Související obsah
+    related_external_links: Jinde na webu
+    related_guides: Podrobné pokyny
+    statistical_data_sets: Soubor statistických údajů.
+    topical_events: Aktuální událost
+    topics: Prozkoumat téma
+    ukraine:
+      links:
+      title:
+    world_locations: Místa ve světě
+  search_box:
+    input_title: Vyhledávání
+    label: Vyhledávání na GOV.UK
+    search_button: Vyhledávání
+  share_links:
+    all_opens_in_new_tab:
+    opens_in_new_tab:
+  show_password:
+    announce_hide: Vaše heslo je skryté
+    announce_show: Zobrazí se vaše heslo
     hide: Skrýt
+    hide_password: Skrýt heslo
     show: Zobrazit
-    toggle_less: Zobrazit méně
-    toggle_more: "%{show} %{number} více"
-    translations: Překlady
-  components:
-    accordion:
-      hide_all: Skrýt všechny sekce
-      show_all: Zobrazit všechny sekce
-      this_section_visually_hidden: " tento oddíl"
-    article_schema:
-      scoped_search_description: Hledat v %{title}
-    attachment:
-      opendocument_html: Tento soubor je ve formátu <a href='https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation' target=%{target} class='govuk-link'>OpenDocument</a>
-      order_a_copy: Objednat kopii
-      page:
-        few:
-        one: Strana 1
-        other: "%{count} stránek"
-      reference: 'Odkaz: %{reference}'
-      request_format_cta: Vyžádejte si přístupný formát.
-      request_format_details_html: Pokud používáte asistivní technologii (např. čtečku obrazovky) a potřebujete verzi tohoto dokumentu v přístupnějším formátu, napište prosím <a href='mailto:%{alternative_format_contact_email}' target='_blank' class='govuk-link'>%{alternative_format_contact_email}</a>. Sdělte nám, jaký formát potřebujete. Pomůže nám, když uvedete, jakou asistenční technologii používáte.
-      request_format_text: Tento soubor nemusí být vhodný pro uživatele asistenčních technologií.
-    back_link:
-      back: Zadní strana
-    character_count:
-      body: Můžete zadat až %{number} %{type}
-      type:
-        characters: znaky
-        words: slova
-    checkboxes:
-      or: nebo
-    contents_list:
-      contents: Obsah
-    contextual_sidebar:
-      pretitle: Též součást
-    cookie_banner:
-      buttons:
-        accept_cookies: Přijmout další soubory cookie
-        reject_cookies: Odmítnutí dalších souborů cookie
-        view_cookies:
-      confirmation_message:
-        accepted:
-        html: Kdykoli můžete %{link}.
-        link: Změna nastavení souborů cookie
-        rejected:
-      hide: Skrýt tuto zprávu
-      text:
-      - Používáme některé základní soubory cookie
-      - aby tyto webové stránky fungovaly.
-      - Rádi bychom nastavili další soubory cookie
-      - abychom pochopili
-      - jak používáte GOV.UK
-      - zapamatovali si vaše nastavení a zlepšili vládní služby.
-      - Používáme také soubory cookie nastavené jinými weby
-      - které nám pomáhají poskytovat obsah z jejich služeb.
-      title: Soubory cookie na GOV.UK
-    devolved_nations:
-      applies_to:
-      connectors:
-        last_word:
-        two_words:
-      england:
-      northern_ireland:
-      scotland:
-      type:
-        consultation:
-        detailed_guide:
-        guidance:
-        publication:
-      wales:
-    feedback:
-      close: Zavřít
-      dont_include_personal_info: Neuvádějte osobní nebo finanční údaje, jako je číslo národního pojištění nebo údaje o kreditní kartě.
-      email_address: E-mail
-      help_us_improve_govuk: Pomozte nám zlepšit GOV.UK
-      is_not_useful: tato stránka není užitečná
-      is_this_page_useful: Je tato stránka užitečná?
-      is_useful: tato stránka je užitečná
-      maybe: Možná
-      more_about_visit: Pomozte nám zlepšit GOV.UK, rádi bychom se dozvěděli více o vaší dnešní návštěvě. Pošleme vám odkaz na formulář pro zpětnou vazbu. Vyplnění zabere pouhé 2 minuty. Nebojte se, že vám nebudeme posílat spam ani nikomu sdělovat vaši e-mailovou adresu.
-      'no': Ne
-      send: Odeslat
-      send_me_survey: Pošlete mi průzkum
-      something_wrong: Nahlásit problém s touto stránkou
-      thank_you_for_feedback: Děkujeme za vaši zpětnou vazbu
-      what_doing: Co jste dělal?
-      what_wrong: Co se pokazilo?
-      'yes': Ano
-    intervention:
-      accessible_link_text_suffix:
-    layout_footer:
-      copyright_html: <a class="govuk-footer__link govuk-footer__copyright-logo" href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
-      licence_html: Veškerý obsah je k dispozici pod <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, pokud není uvedeno jinak
-      navigation_links:
-      support_links: Odkazy na podporu
-    layout_for_public:
-      account_layout:
-        feedback:
-          banners:
-            phase_banner_html:
-        navigation:
-          menu_bar:
-            account:
-              link_text:
-            manage:
-              link_text:
-    layout_header:
-      hide_button: Skrýt vyhledávání
-      menu: Nabídka
-      search_button: Vyhledávání na GOV.UK
-      show_button: Zobrazit vyhledávání
-      top_level: Nejvyšší úroveň
-    layout_super_navigation_header:
-      logo_link_title:
-      logo_text:
-      menu_toggle_label:
-        hide:
-        show:
-      navigation_link:
-        href:
-        label:
-      navigation_links_columns:
-      navigation_menu_heading:
-      navigation_search_heading:
-      navigation_search_subheading:
-      popular_links:
-      popular_links_heading:
-      search_text:
-    metadata:
-      from: 'Komu I:'
-      history: Historie
-      last_updated: 'Poslední aktualizace:'
-      part_of: Část
-      published: Zveřejněno
-      see_all_updates: Vidět všechny aktualizace
-    modal_dialogue:
-      close_modal: Zavření modálního dialogu
-    notice:
-      banner_title:
-    organisation_schema:
-      all_content_search_description: Najít veškerý obsah z %{organisation}
-    previous_and_next_navigation:
-      next:
-      pagination: Stránkování
-      previous:
-    print_link:
-      text: Vytisknout tuto stránku
-    radio:
-      or: nebo
-    related_footer_navigation:
-      collections: Sbírky
-      policies: Politik
-      statistical_data_sets: Soubory statistických údajů.
-      topical_events: Aktuální události
-    related_navigation:
-      collections: Sbírka
-      external_links: Jinde na webu
-      policies: Politika
-      publishers: Zveřejněno
-      related_contacts: Další kontakty
-      related_content: Související obsah
-      related_external_links: Jinde na webu
-      related_guides: Podrobné pokyny
-      statistical_data_sets: Soubor statistických údajů.
-      topical_events: Aktuální událost
-      topics: Prozkoumat téma
-      ukraine:
-        links:
-        title:
-      world_locations: Místa ve světě
-    search_box:
-      input_title: Vyhledávání
-      label: Vyhledávání na GOV.UK
-      search_button: Vyhledávání
-    share_links:
-      all_opens_in_new_tab:
-      opens_in_new_tab:
-    show_password:
-      announce_hide: Vaše heslo je skryté
-      announce_show: Zobrazí se vaše heslo
-      hide: Skrýt
-      hide_password: Skrýt heslo
-      show: Zobrazit
-      show_password: Zobrazit heslo
-    single_page_notification_button:
-      subscribe_text:
-      unsubscribe_text:
-    skip_link:
-      text: Přeskočit na hlavní obsah
-    step_by_step_nav:
-      hide: Skrýt
-      hide_all: Skrýt všechny kroky
-      show: Zobrazit
-      show_all: Zobrazit všechny kroky
-    step_by_step_nav_related:
-      part_of: Část
-    subscription_links:
-      email_signup_link_text: Získat e-maily
-      feed_link_label: Zkopírujte a vložte tuto adresu URL do čtečky kanálů
-      feed_link_text: Přihlásit se k odběru
-      subscriptions: Předplatné
-    success_alert:
-      success: Úspěch
-    summary_list:
-      delete: Odstranit
-      edit: Změna
-    table:
-      filter_count:
-      filter_label:
-      filter_message:
-    tabs:
-      contents: Obsah
+    show_password: Zobrazit heslo
+  single_page_notification_button:
+    subscribe_text:
+    unsubscribe_text:
+  skip_link:
+    text: Přeskočit na hlavní obsah
+  step_by_step_nav:
+    hide: Skrýt
+    hide_all: Skrýt všechny kroky
+    show: Zobrazit
+    show_all: Zobrazit všechny kroky
+  step_by_step_nav_related:
+    part_of: Část
+  subscription_links:
+    email_signup_link_text: Získat e-maily
+    feed_link_label: Zkopírujte a vložte tuto adresu URL do čtečky kanálů
+    feed_link_text: Přihlásit se k odběru
+    subscriptions: Předplatné
+  success_alert:
+    success: Úspěch
+  summary_list:
+    delete: Odstranit
+    edit: Změna
+  table:
+    filter_count:
+    filter_label:
+    filter_message:
+  tabs:
+    contents: Obsah
